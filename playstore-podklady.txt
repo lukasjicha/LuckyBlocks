@@ -1,0 +1,127 @@
+# TETRIS – Play Store podklady
+# LuckyLuke81
+
+========================================
+NÁZEV APLIKACE
+========================================
+Tetris – LuckyLuke81
+
+========================================
+KRÁTKÝ POPIS (max 80 znaků)
+========================================
+Klasický Tetris. Žádné reklamy, žádné nákupy. Navždy zdarma.
+
+========================================
+DLOUHÝ POPIS (max 4000 znaků)
+========================================
+Klasický Tetris přesně tak, jak ho znáš.
+
+Žádné reklamy. Žádné nákupy v aplikaci. Žádné registrace.
+Jen čistá hra – navždy zdarma.
+
+🎮 CO HRA NABÍZÍ:
+• 7 barevných kostek – všechny klasické tvary (I, O, T, L, J, S, Z)
+• Postupně rostoucí obtížnost – každých 10 smazaných řad se hra zrychlí
+• Ghost piece – průhledný stín ukazuje kam kostka dopadne
+• Skóre za smazané řady: Single, Double, Triple, TETRIS
+• Historie nejlepších skóre – top 20 výsledků uložených v telefonu
+• Zvukové efekty – pohyb, rotace, dosednutí, smazání řad
+
+📱 OVLÁDÁNÍ:
+• Šipky dole – pohyb vlevo, dolů, vpravo
+• Tlačítko ↺ – otočení kostky
+• Ťuknutí na hrací plochu – také otočí kostku
+• Swipe dolů po hrací ploše – okamžité spuštění kostky dolů
+
+🏆 SKÓRE:
+• 1 řada (Single):   100 × úroveň
+• 2 řady (Double):   300 × úroveň
+• 3 řady (Triple):   500 × úroveň
+• 4 řady (TETRIS!):  800 × úroveň
+
+Hra je navržena pro hraní na výšku na mobilním telefonu.
+Plné obrazovky, bez zbytečných prvků – jen Tetris.
+
+Vytvořeno s láskou. Bez reklam. Bez poplatků. Navždy.
+
+========================================
+KATEGORIE
+========================================
+Hry > Puzzle
+
+========================================
+HODNOCENÍ OBSAHU
+========================================
+Vhodné pro všechny (Everyone)
+→ V dotazníku hodnocení obsahu: žádné násilí, žádný nevhodný obsah
+
+========================================
+SOUKROMÍ
+========================================
+Aplikace NEVYŽADUJE:
+- Žádná oprávnění
+- Žádný přístup k internetu (hraje offline)
+- Žádné osobní údaje
+- Žádné účty
+
+URL zásad ochrany soukromí (potřebuješ pro Play Store):
+→ Nejjednodušší řešení: vytvoř na GitHubu soubor PRIVACY.md
+  s textem: "Tato aplikace neshromažďuje žádné osobní údaje."
+  URL bude: https://tvůj-účet.github.io/tetris/PRIVACY.md
+
+========================================
+SCREENSHOTY – co vyfotit
+========================================
+Potřebuješ 2–8 screenshotů (telefon na výšku):
+1. Úvodní obrazovka (TETRIS + LuckyLuke81)
+2. Probíhající hra s rozestavěnými kostkami
+3. Hra s plným polem a vysokým skóre
+4. Obrazovka GAME OVER se skóre
+5. Historie skóre (TOP skóre)
+
+Formát: PNG nebo JPEG, min 1080px na kratší straně
+
+========================================
+IKONA – již připravena
+========================================
+icon-512.png (512×512) – použij pro Play Store listing
+
+========================================
+POSTUP PUBLIKACE
+========================================
+1. play.google.com/console → Create app
+2. Název: Tetris – LuckyLuke81
+3. Jazyk: Czech / Čeština (nebo English)
+4. App or game: GAME
+5. Free or paid: FREE
+6. Přijmi podmínky → Create app
+
+7. V levém menu: Dashboard → postupuj podle checklistu
+
+8. Store listing → vlož texty z tohoto souboru + screenshoty + ikonu
+
+9. Content rating → vyplň dotazník (vše "Ne/None")
+
+10. App releases → Production → Create release
+    → sem nahraješ AAB soubor z PWABuilder
+
+11. Pricing → Free (zdarma)
+
+12. Submit for review → Google zkontroluje 1–3 dny
+
+========================================
+PWABUILDER – získání AAB pro Play Store
+========================================
+1. pwabuilder.com
+2. Zadej: https://tvůj-účet.github.io/tetris
+3. Package for stores → Android
+4. Vyplň:
+   - App name: Tetris – LuckyLuke81
+   - Package ID: com.luckyluke81.tetris
+   - Version: 1.0.0
+   - Signing key: NECH "Generate new signing key"
+   - Key password: vymysli heslo a ZAPAMATUJ SI HO
+5. Download → dostaneš ZIP s AAB souborem
+6. AAB soubor nahraješ do Play Console
+
+DŮLEŽITÉ: Signing key si ulož – budeš ho potřebovat pro každou budoucí aktualizaci!
