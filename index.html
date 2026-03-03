@@ -515,7 +515,8 @@ canvas.addEventListener('touchend',e=>{
 },{passive:true});
 canvas.addEventListener('click',()=>{if(gameRunning&&!paused)rotat();});
 
-document.getElementById('btn-start').addEventListener('click',()=>{ showOv(null);  setTimeout(initGame,150); });
+document.getElementById('btn-start').addEventListener('touchstart',()=>{ enterFS(); },{once:true,passive:true});
+document.getElementById('btn-start').addEventListener('click',()=>{ showOv(null); setTimeout(initGame,150); });
 document.getElementById('btn-restart').addEventListener('click',()=>{ showOv(null);  setTimeout(initGame,150); });
 document.getElementById('btn-resume').addEventListener('click',togglePause);
 document.getElementById('btn-pause-menu').addEventListener('click',()=>{
