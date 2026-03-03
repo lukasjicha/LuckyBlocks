@@ -3,6 +3,6 @@
       "target": {
         "namespace": "android_app",
         "package_name": "io.github.lukasjicha.twa",
-        "sha256_cert_fingerprints": ["73:26:D5:73:96:54:5A:CB:31:E0:C2:FC:A2:95:3E:98:65:E0:65:D4:D9:7C:75:CC:FB:10:CC:19:5F:F3:0F:8F"]
+        "sha256_cert_fingerprints": ["82:85:7C:44:E4:B0:97:16:F7:55:B3:2B:EC:A3:FE:D7:54:69:BC:26:32:CC:39:A8:35:07:CB:22:1D:14:44:D1"]
       }
     }]
